@@ -1,3 +1,3 @@
-echo hello world
+echo "hello world"
 exit
-echo hello
+echo "hello"
