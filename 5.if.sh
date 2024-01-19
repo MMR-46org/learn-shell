@@ -1,0 +1,37 @@
+ # simple if
+
+# if [expression];then
+#     commands
+# fi
+
+
+# if else
+
+# if [ expression ];then
+#     commands
+# else
+#     commands
+# fi
+
+
+# else if
+
+# if [ expression ];then
+#      commands1
+# elif [ expression ];then
+#      commands2
+# else
+#      commands
+# fi
+
+
+input=$1
+if [ $input = DEVOPS ]; then
+  echo welcome to devops training
+fi
+
+
+
+
+
+
