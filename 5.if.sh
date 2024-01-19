@@ -24,11 +24,16 @@
 #      commands
 # fi
 
+if [ -z "$1" ]; then
+  echo input is empty
+fi
 
 input=$1
-if [ $input = devops ]; then
+if [ "$input" = devops ]; then
   echo welcome to devops training
 fi
+
+
 
 
 
