@@ -27,6 +27,7 @@
 if [ -z "$1" ]; then
   echo input is empty
   exit 1
+  echo hello
 fi
 
 input=$1
