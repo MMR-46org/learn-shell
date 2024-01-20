@@ -29,7 +29,22 @@ i=10
 while [ "$i" -gt 0 ];do
   echo hello world
   i=$(($i-1))
-  #continue
+  continue
   echo hello universe
 done
 
+
+## case command
+course=$1
+
+case course in
+  aws)
+    echo welcome to aws training
+    ;;
+  devops)
+    echo welcome to devops training
+    ;;
+  *)
+    echo unknown training
+    ;;
+esac
