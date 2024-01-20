@@ -12,7 +12,7 @@ for i in aws devops azure gcp testing;do
 done
 
 
-## break
+echo ## break example
 
 i=10
 while [ "$i" -gt 0 ];do
@@ -23,7 +23,7 @@ while [ "$i" -gt 0 ];do
 done
 
 
-##continue
+ echo ##continue example
 
 i=10
 while [ "$i" -gt 0 ];do
