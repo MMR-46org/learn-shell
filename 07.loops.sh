@@ -20,6 +20,6 @@ done
 
 
 course=[aws,azure,devops,training,gcp]
-for i in $course;do
-  echo welcome to the course - $i
+for i in course;do
+  echo welcome to the course - ${i}
 done
