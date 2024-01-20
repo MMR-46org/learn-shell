@@ -7,8 +7,8 @@ done
 
 
 
-for course in aws devops azure gcp testing;do
-  echo welcome to course - ${course}
+for i in aws devops azure gcp testing;do
+  echo welcome to course - ${i}
 done
 
 
@@ -18,8 +18,3 @@ while [ "$i" -gt 0 ];do
   i=$(($i - 1))
 done
 
-
-course=aws azure devops training gcp
-for i in course;do
-  echo welcome to the course - ${i}
-done
