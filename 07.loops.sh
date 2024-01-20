@@ -29,7 +29,7 @@ i=10
 while [ "$i" -gt 0 ];do
   echo hello world
   i=$(($i-1))
-  continue
+  #continue
   echo hello universe
 done
 
