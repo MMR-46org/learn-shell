@@ -13,5 +13,5 @@ case course in
   gcp)
     echo welcome to gcp training
     ;;
-  esac
+esac
 
