@@ -1,6 +1,6 @@
 course=$1
 
-case course in
+case $course in
   aws)
     echo welcome to aws training
     ;;
